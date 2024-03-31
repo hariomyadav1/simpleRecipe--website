@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   <h1>Error Page</h1>
+   /*
+   =============== 
+   SINGLE RECIPE
+   ===============
+   */
+   
+   
+   .recipe-hero {
+     display: grid;
+     gap: 3rem;
+   }
+   
+   .recipe-hero-img {
+     height: 300px;
+     border-radius: var(--borderRadius);
+   }
+   .recipe-info p {
+     color: var(--grey-600);
+   }
+   .recipe-icons {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1rem;
+     margin: 2rem 0;
+     text-align: center;
+   }
+   .recipe-icons i {
+     font-size: 1.5rem;
+     color: var(--primary-500);
+   }
+   .recipe-icons h5,
+   .recipe-icons p {
+     margin-bottom: 0;
+     font-size: 0.85em;
+   }
+   
+   .recipe-icons p {
+     color: var(--grey-600);
+   }
+   .recipe-tags {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     font-size: 0.7em;
+     font-weight: 600;
+   }
+   .recipe-tags a {
+     background: var(--primary-500);
+     border-radius: var(--borderRadius);
+     color: var(--white);
+     padding: 0.05rem 0.5rem;
+     margin: 0 0.25rem;
+     text-transform: capitalize;
+   }
+   .recipe-hero {
+     grid-template-columns: 4fr 5fr;
+     align-items: center;
+   }
+   .recipe-content {
+     padding: 3rem 0;
+     display: grid;
+     gap: 2rem 5rem;
+   }
+   .recipe-content {
+     grid-template-columns: 2fr 1fr;
+   }
+   
+   .single-instruction header {
+     display: grid;
+     grid-template-columns: auto 1fr;
+     gap: 1.5rem;
+     align-items: center;
+   }
+   .single-instruction header p {
+     text-transform: uppercase;
+     font-weight: 600;
+     color: var(--primary-500);
+     margin-bottom: 0;
+   }
+   .single-instruction > p {
+     color: var(--grey-700);
+   }
+   
+   .single-instruction header div {
+     height: 2px;
+     background: var(--grey-300);
+   }
+   
+   .second-column {
+     display: grid;
+     row-gap: 2rem;
+   }
+   
+   .single-ingredient {
+     border-bottom: 2px solid var(--grey-300);
+     padding-bottom: 0.75rem;
+     color: var(--grey-700);
+   }
+   .single-tool {
+     border-bottom: 2px solid var(--grey-300);
+     padding-bottom: 0.75rem;
+     color: var(--primary-500);
+     text-transform: capitalize;
+   }
+   
+  </body>
+</html>
